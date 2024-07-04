@@ -106,8 +106,8 @@ def generate_pdf(output_directory):
         
 # Function to extract relevent data from SIM file to based in input reports
 def extractReport(input_sim_files, reports):
-    st.success(input_sim_files)
     try:
+        st.success(input_sim_files)
         # Ensure the directory exists
         if not os.path.exists(input_sim_files):
             st.error(f"The directory {input_sim_files} does not exist.")
