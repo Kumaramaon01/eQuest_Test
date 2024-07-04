@@ -32,7 +32,6 @@ def clean_sim(name):
             else:
                 cleaned_lines.append(lines[i])  # Otherwise, keep the current line
                 i += 1  # Move to the next line
-
     # Join the cleaned lines into a single string
     return ''.join(cleaned_lines)
 
