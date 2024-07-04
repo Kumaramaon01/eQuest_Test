@@ -8,7 +8,7 @@ from pathlib import Path
 import fnmatch
 
 # Reading SIM files line by line
-# def read_sim_file(sim_file_path):
+def read_sim_file(sim_file_path):
     if os.path.isfile(sim_file_path):  # If the SIM file exists, then open it in read mode
         with open(sim_file_path, 'r', encoding='utf-8') as f:  # Function is used to specify the character encoding of the file being opened
             return f.read()
